@@ -1,0 +1,22 @@
+<polymer-element name="static-map" attributes="center width height zoom maptype marker key">
+
+	<template>
+		<img alt="{{center}}" width="{{width}}" height="{{height}}" src="http://maps.googleapis.com/maps/api/staticmap?center={{center}}&amp;zoom={{zoom}}&amp;size={{width}}x{{height}}&amp;maptype={{maptype}}&amp;markers={{marker}}&amp;sensor=false">
+	</template>
+
+	<script>
+		Polymer('static-map', {
+			center: '',
+			width: 200,
+			height: 150,
+			zoom: 13,
+			maptype: 'roadmap',
+			marker: '',
+			key: '',
+			created: function(){
+				// My job is done
+			}
+		});
+	</script>
+
+</polymer-element>
