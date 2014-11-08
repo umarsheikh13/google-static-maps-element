@@ -6,8 +6,6 @@ Web Component wrapper for Google Static Maps (API V2) using Polymer.
 
 ![Google Static Maps](http://s28.postimg.org/wok1ycpzh/staticmap.png)
 
-> [Click here for live demo](http://umarsheikh13.github.io/google-static-maps-element).
-
 ## Usage
 
 1. Include Web Components' polymer library:
